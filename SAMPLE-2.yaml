@@ -1,8 +1,8 @@
 --- !<org.apereo.cas.services.RegexRegisteredService>
-serviceId: "testId"
+serviceId: "something"
 name: "SAMPLE"
 id: 2
-description: "description"
+description: "production branch"
 attributeReleasePolicy: !<org.apereo.cas.services.ReturnAllAttributeReleasePolicy> {}
 accessStrategy: !<org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy>
   enabled: true
