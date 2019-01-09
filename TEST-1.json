@@ -1,6 +1,6 @@
 {
   "@class" : "org.apereo.cas.services.RegexRegisteredService",
-  "serviceId" : "te11111111111stId",
+  "serviceId" : "misaghtesting",
   "name" : "TEST",
   "id" : 1,
   "evaluationOrder" : 10
