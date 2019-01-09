@@ -1,0 +1,16 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^https://.+",
+  "name" : "CONTACTS",
+  "id" : 100,
+  "contacts": [
+    "java.util.ArrayList", [{
+        "@class": "org.apereo.cas.services.DefaultRegisteredServiceContact",
+        "name": "John Smith",
+        "email": "jsmith@example.org",
+        "phone": "123-456-7890",
+        "department": "IT"
+      }
+    ]
+  ]
+}
