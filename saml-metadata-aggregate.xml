@@ -115,7 +115,7 @@ MIIDCTCCAfGgAwIBAgIJAM+EoVlq2pQ4MA0GCSqGSIb3DQEBBQUAMCExHzAdBgNV BAMTFnBhbnRoZXI
     
 <!-- Entity -->
     <md:EntityDescriptor
-        xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="mmoayyed.unicon.net" entityID="mmoayyed.unicon.net">
+        xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="mmoayyed.unicon.net" entityID="mmoayyed.unicon.net" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" >
         
         <md:Extensions>
             <mdattr:EntityAttributes>
