@@ -3,5 +3,5 @@
   "serviceId" : "testId",
   "name" : "TEST",
   "id" : 1,
-  "evaluationOrder" : 100
+  "evaluationOrder" : 1
 }
