@@ -8,7 +8,7 @@
         "@class": "org.apereo.cas.services.DefaultRegisteredServiceContact",
         "name": "John Smith",
         "email": "jsmith@example.org",
-        "phone": "123-456-7890",
+        "phone": "1213-456-7890",
         "department": "IT"
       }
     ]
