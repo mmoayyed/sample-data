@@ -1,7 +1,7 @@
 --- !<org.apereo.cas.services.RegexRegisteredService>
-serviceId: "^https://apereo.github.io?app=1"
+serviceId: "^https://apereo.github.io?app=2"
 name: "CAS"
-id: 1
+id: 2
 environments: !<java.util.HashSet>
 - "production"
 accessStrategy: !<org.apereo.cas.services.ChainingRegisteredServiceAccessStrategy>
