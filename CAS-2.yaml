@@ -1,0 +1,24 @@
+--- !<org.apereo.cas.services.RegexRegisteredService>
+serviceId: "^https://apereo.github.io?app=1"
+name: "CAS"
+id: 1
+environments: !<java.util.HashSet>
+- "production"
+accessStrategy: !<org.apereo.cas.services.ChainingRegisteredServiceAccessStrategy>
+  strategies: !<java.util.ArrayList>
+  - !<org.apereo.cas.services.ChainingRegisteredServiceAccessStrategy>
+    strategies: !<java.util.ArrayList>
+    - !<org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy>
+      requiredAttributes: !<java.util.LinkedHashMap>
+        key1: !<java.util.LinkedHashSet>
+        - "value1"
+    - !<org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy>
+      requiredAttributes: !<java.util.LinkedHashMap>
+        key2: !<java.util.LinkedHashSet>
+        - "value2"
+    operator: "AND"
+  - !<org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy>
+    requiredAttributes: !<java.util.LinkedHashMap>
+      key3: !<java.util.LinkedHashSet>
+      - "value3"
+  operator: "OR"
