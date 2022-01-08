@@ -1,9 +1,0 @@
---- !<org.apereo.cas.services.RegexRegisteredService>
-serviceId: "something"
-name: "SAMPLE"
-id: 2
-description: "production branch"
-attributeReleasePolicy: !<org.apereo.cas.services.ReturnAllAttributeReleasePolicy> {}
-accessStrategy: !<org.apereo.cas.services.DefaultRegisteredServiceAccessStrategy>
-  enabled: true
-  ssoEnabled: true
