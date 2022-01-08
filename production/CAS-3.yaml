@@ -1,0 +1,6 @@
+--- !<org.apereo.cas.services.RegexRegisteredService>
+serviceId: "^https://apereo.github.io?app=3"
+name: "CAS"
+id: 3
+environments: !<java.util.HashSet>
+- "pre-production"
