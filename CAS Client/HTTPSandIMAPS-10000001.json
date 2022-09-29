@@ -3,6 +3,6 @@
   serviceId: ^(https|imaps)://.*
   name: HTTPS and IMAPS
   id: 10000001
-  description: This service definition authorizes all application urls that support HTTPS and IMAPS protocols.
+  description: This service definition is here
   evaluationOrder: 1000
 }
